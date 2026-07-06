@@ -53,7 +53,14 @@ class ChatsScreen extends StatelessWidget {
           ),
           actions: [
             IconBtn(icon: Icons.search, onTap: () => ToastOverlay.show(context, 'Search')),
-            IconBtn(icon: Icons.notifications_none, dot: true, onTap: () => ToastOverlay.show(context, '3 new notifications')),
+            IconBtn(
+              icon: Icons.notifications_none,
+              dot: repository.unreadCount > 0,
+              onTap: () => ToastOverlay.show(
+                context,
+                repository.unreadCount > 0 ? '${repository.unreadCount} new notifications' : 'No new notifications',
+              ),
+            ),
           ],
         ),
         // status strip

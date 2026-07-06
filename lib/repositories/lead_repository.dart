@@ -30,6 +30,8 @@ class LeadRepository extends ChangeNotifier {
 
   int get newLeadCount => countByStatusKey('new');
 
+  int get unreadCount => _customers.fold(0, (sum, c) => sum + c.unread);
+
   void markRead(String id) {
     getById(id).unread = 0;
     notifyListeners();

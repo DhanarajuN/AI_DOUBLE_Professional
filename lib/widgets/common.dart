@@ -185,8 +185,10 @@ class ToastOverlay {
     _entry = entry;
     overlay.insert(entry);
     Future.delayed(const Duration(milliseconds: 2200), () {
-      entry.remove();
-      if (_entry == entry) _entry = null;
+      if (_entry == entry) {
+        entry.remove();
+        _entry = null;
+      }
     });
   }
 }

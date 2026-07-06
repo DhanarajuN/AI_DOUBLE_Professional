@@ -48,7 +48,7 @@ class AppShell extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final appVm = context.watch<AppViewModel>();
-    final newCount = context.watch<LeadRepository>().newLeadCount;
+    final newCount = context.watch<LeadRepository>().unreadCount;
 
     return Scaffold(
       backgroundColor: AppColors.app,
