@@ -57,4 +57,5 @@ class Customer {
     required this.quote,
     required this.thread,
   });
+  
 }
