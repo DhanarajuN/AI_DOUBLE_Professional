@@ -1,0 +1,94 @@
+[
+  {
+    "id": "rs", "ini": "RS", "name": "Rahul S.", "via": "ChatGPT",
+    "need": "Home insurance", "status": "new", "unread": 1, "time": "2 min",
+    "loc": "Jubilee Hills", "detail": "3BHK, just purchased", "budget": "~₹8,000/yr",
+    "urgency": "This week", "lastMe": false,
+    "preview": "Looking for home cover for a 3BHK I just…",
+    "quote": "Looking for home cover for a 3BHK I just bought. What would premiums look like and can it be done this week?",
+    "thread": [
+      {"kind": "sys", "text": "Lead routed from ChatGPT · intake completed", "time": ""},
+      {"kind": "them", "text": "Hi, I got your details from ChatGPT. Looking for home cover for a 3BHK I just bought.", "time": "2:12"},
+      {"kind": "them", "text": "What would premiums look like, and can it be done this week?", "time": "2:12"}
+    ]
+  },
+  {
+    "id": "ak", "ini": "AK", "name": "Anita K.", "via": "Perplexity",
+    "need": "Term life · ₹1 Cr", "status": "new", "unread": 1, "time": "18 min",
+    "loc": "Banjara Hills", "detail": "Non-smoker, age 34", "budget": "Best value",
+    "urgency": "This month", "lastMe": false,
+    "preview": "Need a term life policy, around ₹1 crore…",
+    "quote": "Need a term life policy, around ₹1 crore, non-smoker, age 34. Best options?",
+    "thread": [
+      {"kind": "sys", "text": "Lead routed from Perplexity · intake completed", "time": ""},
+      {"kind": "them", "text": "Hi! Need a term life policy, around ₹1 crore, non-smoker, age 34.", "time": "1:40"},
+      {"kind": "them", "text": "What are my best options?", "time": "1:41"}
+    ]
+  },
+  {
+    "id": "sm", "ini": "SM", "name": "Sana M.", "via": "ChatGPT",
+    "need": "Contents insurance", "status": "new", "unread": 1, "time": "40 min",
+    "loc": "Gachibowli", "detail": "Rented apartment", "budget": "Low",
+    "urgency": "Exploring", "lastMe": false,
+    "preview": "Contents insurance for a rented flat, is…",
+    "quote": "Contents insurance for a rented apartment, is that a thing?",
+    "thread": [
+      {"kind": "sys", "text": "Lead routed from ChatGPT · intake completed", "time": ""},
+      {"kind": "them", "text": "Contents insurance for a rented apartment — is that a thing?", "time": "12:30"}
+    ]
+  },
+  {
+    "id": "nv", "ini": "NV", "name": "Naveen V.", "via": "Claude",
+    "need": "Health cover · family", "status": "active", "unread": 0, "time": "1 hr",
+    "loc": "Kondapur", "detail": "Family of 4", "budget": "₹25k/yr",
+    "urgency": "This month", "lastMe": true,
+    "preview": "You: I'd suggest a family floater. Shall I…",
+    "quote": "Family floater health insurance for 4, budget ₹25k/year.",
+    "thread": [
+      {"kind": "sys", "text": "Lead routed from Claude · intake completed", "time": ""},
+      {"kind": "them", "text": "Family floater health insurance for 4, budget ₹25k a year.", "time": "11:00"},
+      {"kind": "me", "text": "Happy to help! For a family of 4 I'd suggest a floater — better value than 4 individual policies.", "time": "11:15"},
+      {"kind": "me", "text": "Shall I put together 2–3 options for you?", "time": "11:16"}
+    ]
+  },
+  {
+    "id": "dp", "ini": "DP", "name": "Divya P.", "via": "ChatGPT",
+    "need": "Motor renewal", "status": "active", "unread": 0, "time": "3 hr",
+    "loc": "Madhapur", "detail": "Car, cashless needed", "budget": "—",
+    "urgency": "This week", "lastMe": true,
+    "preview": "You: Here are 2 cashless options near you",
+    "quote": "Car insurance renewal, want cashless garages near me.",
+    "thread": [
+      {"kind": "sys", "text": "Lead routed from ChatGPT · intake completed", "time": ""},
+      {"kind": "them", "text": "Car insurance renewal due, want cashless garages near me.", "time": "9:20"},
+      {"kind": "me", "text": "Here are 2 cashless options near you — both cover garages in Madhapur.", "time": "9:35"}
+    ]
+  },
+  {
+    "id": "tp", "ini": "TP", "name": "Tej P.", "via": "Claude",
+    "need": "Motor insurance", "status": "won", "unread": 0, "time": "Yesterday",
+    "loc": "Jubilee Hills", "detail": "Car · policy issued", "budget": "₹11,200",
+    "urgency": "Done", "lastMe": true,
+    "preview": "You: Policy issued 🎉 sending documents",
+    "quote": "Car insurance, cashless garages near me.",
+    "thread": [
+      {"kind": "sys", "text": "Lead routed from Claude · intake completed", "time": ""},
+      {"kind": "them", "text": "Need car insurance with cashless garages nearby.", "time": "Mon"},
+      {"kind": "me", "text": "Sorted! Comprehensive cover, cashless network near you, ₹11,200.", "time": "Mon"},
+      {"kind": "me", "text": "Policy issued 🎉 sending documents now.", "time": "Yst"}
+    ]
+  },
+  {
+    "id": "rm", "ini": "RM", "name": "Ravi M.", "via": "Perplexity",
+    "need": "Home insurance", "status": "won", "unread": 0, "time": "3 days",
+    "loc": "Banjara Hills", "detail": "Villa · policy issued", "budget": "₹14,500",
+    "urgency": "Done", "lastMe": true,
+    "preview": "You: Thanks Ravi, glad we got you covered",
+    "quote": "Home insurance for a villa in Banjara Hills.",
+    "thread": [
+      {"kind": "sys", "text": "Lead routed from Perplexity · intake completed", "time": ""},
+      {"kind": "them", "text": "Home insurance for my villa in Banjara Hills.", "time": "3d"},
+      {"kind": "me", "text": "All done — villa comprehensive cover issued at ₹14,500. Thanks Ravi, glad we got you covered!", "time": "3d"}
+    ]
+  }
+]

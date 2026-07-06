@@ -6,7 +6,16 @@ import '../models/customer.dart';
 /// This is the single source of truth ViewModels read from and write through —
 /// no screen holds its own copy of lead/thread state anymore.
 class LeadRepository extends ChangeNotifier {
-  final List<Customer> _customers = buildCustomers();
+  List<Customer> _customers = [];
+  bool _loaded = false;
+
+  bool get loaded => _loaded;
+
+  Future<void> load() async {
+    _customers = await loadCustomers();
+    _loaded = true;
+    notifyListeners();
+  }
 
   List<Customer> get customers => List.unmodifiable(_customers);
 

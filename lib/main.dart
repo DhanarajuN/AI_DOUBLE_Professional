@@ -22,7 +22,7 @@ class AiDoubleApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MultiProvider(
       providers: [
-        ChangeNotifierProvider(create: (_) => LeadRepository()),
+        ChangeNotifierProvider(create: (_) => LeadRepository()..load()),
         Provider<ChatModelService>(
           create: (_) => _openAiApiKey.isEmpty ? const MockChatService() : OpenAiChatService(apiKey: _openAiApiKey),
         ),

@@ -30,7 +30,11 @@ class ChatsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final vm = context.watch<ChatsListViewModel>();
     // Rebuild when the underlying lead data changes (new messages, status, etc.)
-    context.watch<LeadRepository>();
+    final repository = context.watch<LeadRepository>();
+
+    if (!repository.loaded) {
+      return const Center(child: CircularProgressIndicator(color: AppColors.teal));
+    }
 
     return Column(
       children: [
